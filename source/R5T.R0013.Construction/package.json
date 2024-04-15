@@ -1,0 +1,15 @@
+{
+  "name": "R5T.R0013.Construction",
+  "version": "0.0.1",
+  "description": "Construction console project for the R5T.R0013 library project.",
+  "main": "index.js",
+  "scripts": {
+    "tailwindcss": "npx tailwindcss -i ./source/css/tailwind.css -o ./wwwroot/css-out/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davidcoats",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "3.4.1"
+  }
+}
