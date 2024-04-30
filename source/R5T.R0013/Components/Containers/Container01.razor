@@ -1,0 +1,13 @@
+
+<div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+    @this.ChildContent
+</div>
+
+
+@code{
+    /// <summary>
+    /// The content within the container.
+    /// </summary>
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

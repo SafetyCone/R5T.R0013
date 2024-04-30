@@ -1,3 +1,4 @@
 [
-  "./Components/**/*.razor"
+  "./Components/**/*.razor",
+  "./Routes/Components/**/*.razor"
 ]
